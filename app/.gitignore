@@ -1,1 +1,9 @@
-/build
+faeterj-petropolis.edu.br
+
+br.edu.faeterj.petropolis.tcc.meals-delivery-api
+
+
+CREATED("Created"),
+    CONFIRMED("Confirmed", "Created"),
+    DELIVERED("Delivered", "Confirmed"),
+    CANCELLED("Cancelled", "Criated");
